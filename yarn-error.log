@@ -1,0 +1,56 @@
+Arguments: 
+  D:\nvm_node\node.exe D:\npm_global\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  D:\nodeDevOps\VMware\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\python\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;D:\nvm;D:\nvm_node;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Python27\;C:\Users\xuli\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\xuli\AppData\Local\Programs\Python\Python38\;D:\sjk\db;D:\sjk\mongodb-win32-x86_64-3.1.2\mongodb-windows-x86_64-3.1.2\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\xuli\AppData\Local\Android\Sdk\platform-tools;D:\it\photoshop\Microsoft VS Code\bin;node_global\bin;C:\Users\xuli\AppData\Local\Microsoft\WindowsApps;D:\PyCharm 2019.3.1\bin;;D:\androidSdk\platform-tools;D:\androidSdk\emulator;D:\androidSdk\tools;D:\androidSdk\tools\bin;D:\flutter\flutter\bin;C:\Users\xuli\.dotnet\tools;C:\Users\xuli\AppData\Roaming\npm;D:\npm_global;D:\nvm;D:\nvm_node;D:\vs2017\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x64;D:\nodeDevOps\mysql;D:\nodeDevOps\nginx\nginx-1.21.3;D:\nodeDevOps\ffmpeg-n5.0-latest-win64-lgpl-5.0\ffmpeg-n5.0-latest-win64-lgpl-5.0\bin;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\xiangmu\pci-docs\package.json: Unexpected token } in JSON at position 156
+      at JSON.parse (<anonymous>)
+      at D:\npm_global\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\npm_global\node_modules\yarn\lib\cli.js:310:30)
+      at D:\npm_global\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "theme-vdoing-blog",
+      "version": "1.0.0",
+      "scripts": {
+          "dev": "vuepress dev docs",
+          "build": "vuepress build docs",
+      },
+      "license": "MIT",
+      "devDependencies": {
+          "dayjs": "^1.9.7",
+          "inquirer": "^7.1.0",
+          "json2yaml": "^1.1.0",
+          "vuepress": "1.8.0",
+          "vuepress-plugin-baidu-autopush": "^1.0.1",
+          "vuepress-plugin-baidu-tongji": "^1.0.1",
+          "vuepress-plugin-demo-block": "^0.7.2",
+          "vuepress-plugin-one-click-copy": "^1.0.2",
+          "vuepress-plugin-thirdparty-search": "^1.0.2",
+          "vuepress-plugin-zooming": "^1.1.7",
+          "vuepress-theme-vdoing": "^1.8.3",
+          "yamljs": "^0.3.0"
+      },
+      "dependencies": {
+          "vuepress-plugin-comment": "^0.7.3"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
