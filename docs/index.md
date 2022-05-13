@@ -14,11 +14,11 @@ features: # 可选的
     imgUrl: /img/more.png # 可选
   - title: 项目管理配置
     details: 工具的基础使用
-    link: /ui/
+    link: /pages/1bebf3/
     imgUrl: /img/ui.png
   - title: 小工具
     details: 一些实用的前端小工具
-    link: /technology/
+    link: /pages/7faa6b/
     imgUrl: /img/other.png
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
