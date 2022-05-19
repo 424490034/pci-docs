@@ -13,7 +13,7 @@ tags:
 
 ## window软件
 
-[下载地址](https://www.996day.com)
+[下载地址](https://basics.996day.com/webPciDownload)
 
 ## mac软件
 
